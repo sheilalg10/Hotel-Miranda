@@ -1,13 +1,17 @@
-function hamburguerMenu() {
-    const hamburguer = document.getElementById("hamburguerMenu");
-    const dropdown = document.getElementById("dropdown");
-    const ham__span = document.getElementsByClassName("header__div__hamburguer__span");
+export default function hamburguerMenu() {
+  const hamburguer = document.getElementById('hamburguerMenu');
+  const navMenu = document.querySelector('.header__div__nav');
+  const navLinks = document.querySelectorAll('.header__div__nav__list__link');
 
-    hamburguer.addEventListener("click", () =>{
-        if(dropdown.className === "dropdown"){
-            dropdown.className = "dropdown display";
-        }
-    })
+  hamburguer.addEventListener('click', () => {
+    hamburguer.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburguer.classList.remove('active');
+      navMenu.classList.remove('active');
+    });
+  });
 }
-
-export default hamburguerMenu;

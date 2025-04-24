@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Hotel Miranda</title>
   </head>
   <body>
@@ -16,52 +20,303 @@
           <span class="header__div__hamburguer__span"></span>
           <span class="header__div__hamburguer__span"></span>
         </div>
-        <img
-          class="header__div__logo"
-          src="./assets/images/title.svg"
-          alt="Hotel Miranda"
-        />
+        <a href="./index.html">
+          <img
+            class="header__div__logo"
+            src="./assets/images/title.svg"
+            alt="Hotel Miranda"
+          />
+        </a>
         <nav class="header__div__nav">
           <ul class="header__div__nav__list">
             <li class="header__div__nav__list__item">
-              <a href="" class="header__div__nav__list__link">About Us</a>
+              <a
+                href="./pages/aboutUs.html"
+                class="header__div__nav__list__link"
+                >About Us</a
+              >
             </li>
             <li class="header__div__nav__list__item">
-              <a href="" class="header__div__nav__list__link">Rooms</a>
+              <a href="./pages/rooms.html" class="header__div__nav__list__link"
+                >Rooms</a
+              >
             </li>
             <li class="header__div__nav__list__item">
-              <a href="" class="header__div__nav__list__link">Offers</a>
+              <a href="./pages/offers.html" class="header__div__nav__list__link"
+                >Offers</a
+              >
             </li>
             <li class="header__div__nav__list__item">
-              <a href="" class="header__div__nav__list__link">Contact</a>
+              <a
+                href="./pages/contact.html"
+                class="header__div__nav__list__link"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
       </div>
       <div class="header__icons">
-        <img src="./assets/images/icons/human.svg" class="header__icons__icon" alt="User Icon" />
-        <img src="./assets/images/icons/lupa.svg" class="header__icons__icon" alt="Search Icon" />
+        <img
+          src="./assets/images/icons/human.svg"
+          class="header__icons__icon"
+          alt="User Icon"
+        />
+        <img
+          src="./assets/images/icons/lupa.svg"
+          class="header__icons__icon"
+          alt="Search Icon"
+        />
       </div>
     </header>
-    <!-- MENU DESPLEGABLE -->
-    <div class="dropdown" id="dropdown">
-      <ul class="dropdown__list">
-        <li class="dropdown__list__item">
-          <a href="" class="dropdown__list__item__link">About Us</a>
-        </li>
-        <li class="dropdown__list__item">
-          <a href="" class="dropdown__list__item__link">Rooms</a>
-        </li>
-        <li class="dropdown__list__item">
-          <a href="" class="dropdown__list__item__link">Offers</a>
-        </li>
-        <li class="header__div__nav__list__item">
-          <a href="" class="dropdown__list__item__link">Contact</a>
-        </li>
-      </ul>
-    </div>
     <!-- MAIN -->
-     <!-- JS -->
-      <script></script>
+    <main>
+      <section class="info">
+        <div class="info__div">
+          <span class="info__div__span">The ultimate luxury experience</span>
+          <h1 class="info__div__h1">The perfect base for you</h1>
+          <div class="info__div__buttons">
+            <button
+              class="info__div__buttons__button info__div__buttons__button--solid"
+            >
+              Take a tour
+            </button>
+            <button class="info__div__buttons__button">Learn more</button>
+          </div>
+        </div>
+        <div class="arrival">
+          <form action="" class="arrival__form">
+            <div class="arrival__form__div">
+              <label for="arrival" class="arrival__form__div__label"
+                >Arrival Date</label
+              >
+              <input
+                type="date"
+                class="arrival__form__div__input"
+                id="arrival"
+              />
+            </div>
+            <div class="arrival__form__div">
+              <label for="departure" class="arrival__form__div__label"
+                >Departure Date</label
+              >
+              <input
+                type="date"
+                class="arrival__form__div__input"
+                id="departure"
+              />
+            </div>
+            <div class="arrival__form__div">
+              <input
+                type="submit"
+                class="info__div__buttons__button info__div__buttons__button--solid"
+                value="Check availability"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="aboutus">
+        <div class="aboutus__div">
+          <span class="aboutus__div__span">about us</span>
+          <h2 class="aboutus__div__h2">Discover our underground.</h2>
+          <p class="aboutus__div__p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button
+            class="info__div__buttons__button info__div__buttons__button--solid"
+          >
+            book now
+          </button>
+        </div>
+
+        <div class="aboutus__card">
+          <div class="aboutus__card__image">
+            <img src="/assets/images/img01.jpg" alt="Our Team" />
+          </div>
+          <div class="aboutus__card__div">
+            <img
+              class="aboutus__card__div__icon"
+              src="/assets/images/icons/team.svg"
+              alt="Team Ico"
+            />
+            <img
+              class="aboutus__card__div__iconBack"
+              src="/assets/images/icons/team.svg"
+              alt="Team Ico Back"
+            />
+            <h3 class="aboutus__card__div__h3">strong team</h3>
+            <p class="aboutus__card__div__p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+
+        <div class="aboutus__card aboutus__card--dark">
+          <div class="aboutus__card__image">
+            <img src="/assets/images/img02.jpg" alt="Our Team" />
+          </div>
+          <div class="aboutus__card__div">
+            <img
+              class="aboutus__card__div__icon"
+              src="/assets/images/icons/calendar02.svg"
+              alt="Calendar Ico"
+            />
+            <h3 class="aboutus__card__div__h3">Luxury Room</h3>
+            <p class="aboutus__card__div__p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="rooms">
+        <span class="rooms__span">rooms</span>
+        <h2 class="rooms__h2">hand picked rooms</h2>
+
+        <div class="rooms__icons">
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/bed.svg"
+            alt="bed"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/wifi.svg"
+            alt="wifi"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/car.svg"
+            alt="car"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/cold.svg"
+            alt="cold"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/gym.svg"
+            alt="gym"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/noSmoking.svg"
+            alt="no smoking"
+          />
+          <img
+            class="rooms__icons__item"
+            src="/assets/images/icons/cocktail.svg"
+            alt="cocktail"
+          />
+        </div>
+
+        <div class="swiper main">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/assets/images/room.webp" alt="Room Image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/images/room02.jpg" alt="Room Image 02" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/images/room03.jpg" alt="Room Image 03" />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev main"></div>
+          <div class="swiper-button-next main"></div>
+        </div>
+
+        <div class="rooms__div">
+          <h3 class="rooms__div__h3">Minimal duplex room</h3>
+          <p class="rooms__div__p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore.
+          </p>
+          <p class="rooms__div__price"><span>$345</span>/Night</p>
+        </div>
+      </section>
+
+      <section class="video">
+        <span class="video__span">intro video</span>
+        <h2 class="video__h2">meet with our luxury place.</h2>
+        <p class="video__p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat you have to understand this.
+        </p>
+        <video
+          class="video__video"
+          src="/assets/images/video/video01.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <button class="info__div__buttons__button info__div__buttons__button--solid">book now</button>
+      </section>
+
+      <section class="facilities">
+        <span class="facilities__span">facilities</span>
+        <h2 class="facilities__h2">core features</h2>
+
+        <div class="facilities__div">
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/rating.svg" alt="rating">
+                <h3 class="facilities__div__item__h3">have high rating</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/time.svg" alt="time">
+                <h3 class="facilities__div__item__h3">quiet hours</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/location.svg" alt="location">
+                <h3 class="facilities__div__item__h3">best locations</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/cancellation.svg" alt="cancellation">
+                <h3 class="facilities__div__item__h3">free cancellation</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/payment.svg" alt="payment">
+                <h3 class="facilities__div__item__h3">payment options</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+
+            <div class="facilities__div__item">
+                <img class="facilities__div__item__img" src="/assets/images/icons/offers.svg" alt="offers">
+                <h3 class="facilities__div__item__h3">special offers</h3>
+                <p class="facilities__div__item__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <div class="facilites__indicators">
+            <span class="facilities__indicators__item active"></span>
+            <span class="facilities__indicators__item"></span>
+            <span class="facilities__indicators__item"></span>
+            <span class="facilities__indicators__item"></span>
+            <span class="facilities__indicators__item"></span>
+            <span class="facilities__indicators__item"></span>
+        </div>
+    </section>
+    </main>
+    <!-- JS -->
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

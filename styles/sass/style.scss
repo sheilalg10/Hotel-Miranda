@@ -1,6 +1,11 @@
 @import "./mixins";
 @import "./variables";
 @import "common/header";
+@import "home/info";
+@import "home/aboutUs";
+@import "home/rooms";
+@import "home/video";
+@import "home/facilities";
 
 * {
   box-sizing: border-box;
