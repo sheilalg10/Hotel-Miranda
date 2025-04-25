@@ -4,6 +4,7 @@
   @include flex(center, flex-start, column);
   background: black;
   gap: 32px;
+  width: 100%;
 
   &__span {
     @include font($roboto, 13px, 700, 1rem, $gold);

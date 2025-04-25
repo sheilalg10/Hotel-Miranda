@@ -3,6 +3,7 @@
     @include flex(center, center, column);
     padding: 50px 0;
     gap: 60px;
+    width: 100%;
 
     &__div {
         @include flex(center, center, column);
