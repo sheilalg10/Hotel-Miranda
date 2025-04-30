@@ -1,6 +1,5 @@
 footer {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(1, 1fr);
     margin-top: 60px;
     padding: 32px 22px;
@@ -94,14 +93,12 @@ footer {
 
     .copyright {
         background: grey;
-        width: 110vw;
+        width: 113%;
         @include flex(center, flex-start, column);
         gap: 12px;
-        padding: 24px 32px;
         position: relative;
-        left: -30px;
+        left: -22px;
         bottom: -32px;
-
         p {
             @include font($roboto, 16px, 700, 28px, black);
         }
@@ -119,10 +116,11 @@ footer {
         }
 
         .copyright {
+            width: 100%;
             position: absolute;
             bottom: 0;
             left: 0;
-            padding: 30px 5vw;
+            padding: 30px 5px;
         }
     }
 }

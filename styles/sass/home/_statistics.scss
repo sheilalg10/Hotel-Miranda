@@ -27,8 +27,9 @@
 @media (min-width: 1000px) {
     .statistics {
         @include flex(center, center, row);
-        margin: 0 5vw;
         gap: 100px;
+        width: 80%;
+        margin: 0 auto;
 
         &__item {
             @include flex(center, flex-start, column);

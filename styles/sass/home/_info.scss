@@ -1,7 +1,6 @@
 .info {
   @include flex(center, flex-start, column);
   background-color: black;
-  width: 100%;
   &__div {
     @include flex(center, flex-start, column);
     gap: 40px;
@@ -75,7 +74,7 @@
   .info {
     &__div {
       padding: 160px 20vw 100px 20vw;
-      width: 100vw;
+      width: 100%;
 
       &__span {
         width: 400px;

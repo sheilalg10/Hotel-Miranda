@@ -4,6 +4,7 @@
   padding: 100px 20px 0;
   position: relative;
   width: 100%;
+  overflow: hidden;
 
   &__span {
     @include font($roboto, 13px, 700, 18px, black);
@@ -15,14 +16,15 @@
   }
 
   &__image {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(40px); // Visualmente lo saca fuera, pero sin crear scroll
+    transform: translateX(40px);
     width: 140px;
     height: 140px;
-    pointer-events: none; // Opcional si es decorativo
-    z-index: 0;
+    pointer-events: none;
+    z-index: 0;    
   }
 }
 
