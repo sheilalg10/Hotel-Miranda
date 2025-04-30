@@ -789,7 +789,7 @@
     .food__image {
       width: 229px;
       height: 229px;
-      left: -3vw;
+      left: 0;
       display: block;
       position: absolute; }
 
@@ -1050,7 +1050,7 @@
     flex-direction: row;
     z-index: 10; }
     .sectionCounter .swiper-pagination.counter .swiper-pagination-bullet {
-      background-color: black;
+      background-color: white;
       opacity: 1; }
     .sectionCounter .swiper-pagination.counter .swiper-pagination-bullet-active {
       background-color: #BEAD8E; }
@@ -1066,6 +1066,78 @@
       gap: 90px; }
     .sectionCounter .counter {
       height: 400px; } }
+.roomsGrid {
+  padding: 48px 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 60px; }
+  .roomsGrid__item {
+    position: relative;
+    text-align: center;
+    width: 95%; }
+    .roomsGrid__item__image {
+      width: 100%;
+      height: 240px; }
+    .roomsGrid__item__title {
+      font-family: "Old Standard TT", serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      color: black;
+      margin-bottom: 16px; }
+    .roomsGrid__item__description {
+      width: 80%;
+      margin: 0 auto 20px; }
+    .roomsGrid__item__actions__price {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #BEAD8E; }
+      .roomsGrid__item__actions__price a {
+        margin-left: 20px;
+        opacity: .5;
+        text-decoration: none;
+        color: grey; }
+
+.rooms__icons.roomsGrid__item {
+  top: -20px;
+  width: 70%; }
+
+.pagination {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto -40px;
+  gap: 12px; }
+  .pagination__numb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 39px;
+    height: 39px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    color: black; }
+    .pagination__numb.active {
+      color: white;
+      background: #BEAD8E; }
+
+@media (min-width: 1000px) {
+  .roomsGrid {
+    padding: 48px 20vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; }
+
+  .pagination {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin-top: 40px; } }
 footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -1156,20 +1228,20 @@ footer {
         text-transform: capitalize; }
   footer .copyright {
     background: grey;
-    width: 113%;
+    width: 87.5vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
     position: relative;
-    left: -22px;
+    left: -20px;
     bottom: -32px; }
     footer .copyright p {
       font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 700;
-      line-height: 28px;
+      line-height: 30px;
       color: black; }
 
 @media (min-width: 1000px) {
@@ -1182,8 +1254,9 @@ footer {
     footer .copyright {
       position: absolute;
       bottom: 0;
-      left: 0;
-      padding: 30px 5vw; } }
+      left: 0px;
+      padding: 30px 5vw;
+      width: 100%; } }
 * {
   box-sizing: border-box;
   margin: 0;

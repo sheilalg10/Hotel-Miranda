@@ -93,14 +93,14 @@ footer {
 
     .copyright {
         background: grey;
-        width: 113%;
+        width: 87.5vw;
         @include flex(center, flex-start, column);
         gap: 12px;
         position: relative;
-        left: -22px;
+        left: -20px;
         bottom: -32px;
         p {
-            @include font($roboto, 16px, 700, 28px, black);
+            @include font($roboto, 16px, 700, 30px, black);
         }
     }
 }
@@ -118,8 +118,9 @@ footer {
         .copyright {
             position: absolute;
             bottom: 0;
-            left: 0;
+            left: 0px;
             padding: 30px 5vw;
+            width: 100%;
         }
     }
 }
