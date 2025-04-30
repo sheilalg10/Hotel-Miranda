@@ -24,7 +24,7 @@
     width: 140px;
     height: 140px;
     pointer-events: none;
-    z-index: 0;    
+    z-index: 0;
   }
 }
 
@@ -129,6 +129,7 @@
 @media (min-width: 1000px) {
   .food {
     padding: 200px 15vw 0;
+    overflow: hidden;
 
     &__span {
       margin-left: 5px;
@@ -143,6 +144,8 @@
       width: 229px;
       height: 229px;
       left: -3vw;
+      display: block;
+      position: absolute;
     }
   }
 

@@ -4,7 +4,7 @@
   padding: 60px 20px;
   width: 100%;
 
-  &-dark {
+  &--dark {
     background: black;
     margin-top: 80px;
   }
@@ -13,7 +13,7 @@
     @include font($roboto, 13px, 700, 18px, black);
     letter-spacing: 2.8px;
 
-    &-dark {
+    &--dark {
       color: white;
     }
   }
@@ -22,7 +22,7 @@
     margin-top: 24px;
     margin-bottom: 32px;
 
-    &-dark {
+    &--dark {
       color: white;
     }
   }
@@ -50,13 +50,13 @@
       z-index: 10;
 
       &__h3 {
-        &-dark {
+        &--dark {
           color: white;
         }
       }
 
       &__p {
-        &-dark {
+        &--dark {
           color: white;
         }
       }
@@ -71,8 +71,8 @@
         pointer-events: none;
       }
 
-      &-dark {
-        background: black;
+      &--dark {
+        background: #292929;
         padding-bottom: 60px;
         margin-right: 20px;
 
@@ -80,6 +80,7 @@
           color: black;
           top: 4px;
           right: 5px;
+          pointer-events: none;
         }
       }
 
@@ -124,6 +125,10 @@
       &.active {
         background: $gold;
       }
+
+      &--dark{
+        background-color: white;
+      }
     }
   }
 }
@@ -135,7 +140,7 @@
       margin-top: 40px;
     }
 
-    &-dark {
+    &--dark {
       padding: 60px 13vw;
     }
 

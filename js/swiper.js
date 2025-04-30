@@ -74,11 +74,11 @@ export default function swiper() {
       },
     });
   
-    const factsSwiper = new Swiper('.swiper.facts', {
+    const counterSwiper = new Swiper('.swiper.counter', {
       loop: true,
       slidesPerView: 1,  
       pagination: {
-        el: '.swiper-pagination.facts',
+        el: '.swiper-pagination.counter',
         clickable: true,
       },
       breakpoints: {
