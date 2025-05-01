@@ -1447,6 +1447,193 @@
       top: 190px;
       box-shadow: 0px 8px 16px 0px #8a8a8a0d;
       padding: 1rem 4rem; } }
+.sectionOffers {
+  padding: 40px 20px; }
+  .sectionOffers__div {
+    box-shadow: 0px 0px 8px black;
+    padding: 0 0 40px 0;
+    margin-bottom: 40px; }
+    .sectionOffers__div__items {
+      width: 100%;
+      height: 220px;
+      position: relative; }
+      .sectionOffers__div__items__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .sectionOffers__div__items__price {
+        position: absolute;
+        bottom: 0;
+        right: 14px;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 2rem;
+        color: red; }
+        .sectionOffers__div__items__price--crossed {
+          bottom: 40px;
+          font-size: 26px;
+          text-decoration: line-through;
+          color: #BEAD8E; }
+        .sectionOffers__div__items__price span {
+          font-family: "Roboto", sans-serif;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 3rem;
+          color: red; }
+          .sectionOffers__div__items__price span.crossed {
+            color: #BEAD8E;
+            text-decoration: line-through; }
+    .sectionOffers__div__info {
+      padding: 20px 40px 20px 20px; }
+      .sectionOffers__div__info__span {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        color: black;
+        letter-spacing: 2.8px;
+        opacity: 0.7; }
+      .sectionOffers__div__info__h2 {
+        font-family: "Old Standard TT", serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        color: black;
+        letter-spacing: -1.44px;
+        margin: 10px 0 20px; }
+      .sectionOffers__div__info__p {
+        opacity: 0.7;
+        margin-bottom: -30px; }
+
+.ameneties__grid.sectionOffers {
+  margin-bottom: -30px; }
+
+.info__div__buttons__button.sectionOffers {
+  margin-left: 20px; }
+
+@media (min-width: 1000px) {
+  .sectionOffers {
+    padding: 120px 20vw 30px; }
+    .sectionOffers__div {
+      box-shadow: none;
+      margin-bottom: 40px;
+      height: 988px;
+      position: relative; }
+      .sectionOffers__div__items {
+        height: 570px;
+        position: relative; }
+        .sectionOffers__div__items__price {
+          bottom: -80px;
+          right: 200px;
+          z-index: 21; }
+          .sectionOffers__div__items__price--crossed {
+            bottom: -40px;
+            right: 200px; }
+      .sectionOffers__div__info {
+        border-top: 6px solid #BEAD8E;
+        width: 80%;
+        margin: -40px auto 0;
+        z-index: 20;
+        background: white;
+        position: relative; }
+        .sectionOffers__div__info__h2 {
+          padding-bottom: 20px;
+          border-bottom: 2px solid black; }
+        .sectionOffers__div__info__p {
+          width: 55%; }
+
+  .ameneties__grid.sectionOffers {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 48px;
+    position: absolute;
+    right: -190px;
+    bottom: 58px;
+    z-index: 20;
+    pointer-events: none; }
+
+  .info__div__buttons__button.sectionOffers {
+    margin-left: 135px;
+    margin-top: 30px;
+    z-index: 21; } }
+.popularRooms {
+  padding: 100px 20px 10px;
+  position: relative;
+  background: black;
+  text-align: center; }
+  .popularRooms__span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #BEAD8E;
+    letter-spacing: 2.8px; }
+  .popularRooms__title {
+    font-family: "Old Standard TT", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin: 28px 0 48px; }
+  .popularRooms .swiper {
+    width: 100%;
+    height: 485px; }
+  .popularRooms .swiper-slide img {
+    width: 100%;
+    height: 50%; }
+  .popularRooms .swiper-slide .popularRooms__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    margin-top: -10px;
+    gap: 20px;
+    padding: 80px 20px; }
+    .popularRooms .swiper-slide .popularRooms__info__title {
+      font-family: "Old Standard TT", serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      color: black; }
+    .popularRooms .swiper-slide .popularRooms__info__description {
+      opacity: 0.7; }
+    .popularRooms .swiper-slide .popularRooms__info__actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      .popularRooms .swiper-slide .popularRooms__info__actions__price {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #BEAD8E; }
+        .popularRooms .swiper-slide .popularRooms__info__actions__price a {
+          margin-left: 20px;
+          opacity: 0.4; }
+  .popularRooms .swiper-slide .popularRooms__icons {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+    background: white;
+    padding: 1rem 5rem; }
+
+@media (min-width: 1000px) {
+  .popularRooms {
+    padding: 100px 20px 120px; }
+    .popularRooms .swiper {
+      margin: 0 auto;
+      width: 80%; }
+    .popularRooms .swiper-slide {
+      margin-left: 20px; } }
 footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
