@@ -74,6 +74,9 @@
 
     .counter {
       height: 400px;
+      .swiper-pagination.counter{
+        display: none;
+      }
     }
   }
 }
