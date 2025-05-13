@@ -8,6 +8,28 @@ Este proyecto **Hotel Miranda**, una marca del sector hotelero. El sitio está e
 - **SASS (SCSS)** – Estilos organizados, reutilizables y escalables.
 - **JavaScript** – Funcionalidades dinámicas e interactividad.
 
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5) ![SCSS](https://img.shields.io/badge/SCSS-CSS3-blueviolet?style=for-the-badge&logo=sass) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## 🚀 Instalación y Configuración
+
+### 1️⃣ Clonar el repositorio
+```sh
+git clone https://github.com/sheilalg10/Hotel-Miranda.git
+cd Hotel-Miranda
+```
+
+### 2️⃣ Instalar dependencias (Sass)
+```sh
+npm install -g sass
+```
+
+### 3️⃣ Compilar SCSS a CSS
+Si usas Sass CLI, puedes compilar los archivos SCSS con:
+```sh
+sass --watch ./styles/sass/style.scss:./styles/css/style.css
+```
+
+
 ## 📁 Estructura del proyecto
 ```sh
 📁 Hotel-Miranda
@@ -65,3 +87,6 @@ Este proyecto **Hotel Miranda**, una marca del sector hotelero. El sitio está e
 │ └── 📁 fonts/
 └── README.md
 ```
+
+---
+✍️ **Autor:** [Sheila Lara García](https://github.com/sheilalg10)
