@@ -9,58 +9,59 @@ Este proyecto **Hotel Miranda**, una marca del sector hotelero. El sitio está e
 - **JavaScript** – Funcionalidades dinámicas e interactividad.
 
 ## 📁 Estructura del proyecto
-
-hotel-miranda-web/
+```sh
+📁 Hotel-Miranda
 ├── index.html
-├── /styles/
-│ ├── /css/    
+├── 📁 styles/
+│ ├── 📁 css/    
 |    ├── style.css
-│ └── /sass/
-|    ├── rooms
-|        ├── roomsDetails
+│ └── 📁 sass/
+|    ├── 📁 rooms
+|        ├── 📁 roomsDetails
 │            ├── _ameneties.scss
 │            ├── _check.scss
 |            ├── _sectionClient.scss
 │            ├── _sectionDetails.scss
 │            └── _sectionReleated.scss
 │        └── _sectionRooms.scss
-│    ├── aboutUs
+│    ├── 📁 aboutUs
 │        ├── _sectionCounter.scss
 │        ├── _sectionRestaurant.scss
 │        └── _sectionVideo.scss
-│    ├── common
+│    ├── 📁 common
 │        ├── _facilities.scss
 │        ├── _footer.scss
 │        ├── _header.scss
 │        └── _titleSetion.scss
-│    ├── offers
+│    ├── 📁 offers
 │        ├── _popularRooms.scss
 │        └── _sectionOffers.scss
-│    ├── home
-│            ├── _aboutUs.scss
-│            ├── _food.scss
-|            ├── _info.scss
-│            ├── _rooms.scss
-│            ├── _statistics.scss
-│            └── _video.scss
+│    ├── 📁 home
+│         ├── _aboutUs.scss
+│         ├── _food.scss
+|         ├── _info.scss
+│         ├── _rooms.scss
+│         ├── _statistics.scss
+│         └── _video.scss
 |    ├── style.scss
 │    ├── _variables.scss
 │    └── _mixins.scss
-├── /js/
+├── 📁 js/
 │    ├── script.js
 │    ├── hamburguerMenu.js
 │    ├── facilities.js
 │    └── swiper.js
-├── /pages/
-|    ├── rooms
+├── 📁 pages/
+|    ├── 📁 rooms
 |        ├── roomsDetails.html
 │    ├── aboutUs.html
 │    ├── contact.html
 │    ├── offers.html
 │    └── rooms.html
-├── /assets/
-│ ├── /images/
-|     ├── /icons/
-│     └── /video/
-│ └── /fonts/
+├── 📁 assets/
+│    ├── 📁 images/
+|         ├── 📁 icons/
+│         └── 📁 video/
+│ └── 📁 fonts/
 └── README.md
+```
