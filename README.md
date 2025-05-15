@@ -1,4 +1,4 @@
-# 🌴 Hotel Miranda — Sitio Web
+# 🌴 Hotel Miranda
 
 Este proyecto **Hotel Miranda**, una marca del sector hotelero. El sitio está enfocado en mostrar la oferta del hotel, sus servicios, habitaciones y permitir a los usuarios realizar reservas.
 
