@@ -1634,6 +1634,146 @@
       width: 80%; }
     .popularRooms .swiper-slide {
       margin-left: 20px; } }
+.contactList {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 24px 20px; }
+  .contactList__title {
+    font-size: 24px; }
+  .contactList__section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 22px;
+    padding: 52px 0 99px 20px;
+    position: relative;
+    width: 100%; }
+    .contactList__section::before {
+      content: "01";
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-family: "Roboto", sans-serif;
+      font-size: 200px;
+      font-weight: 700;
+      line-height: 100%;
+      color: black;
+      opacity: 0.1; }
+    .contactList__section:nth-child(2)::before {
+      content: "02"; }
+    .contactList__section:nth-child(3)::before {
+      content: "03"; }
+    .contactList__section__info__title {
+      font-family: "Old Standard TT", serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      color: black;
+      text-transform: capitalize; }
+    .contactList__section__info__description {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: black;
+      opacity: 0.6;
+      text-transform: capitalize; }
+
+.map {
+  padding: 20px; }
+  .map__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; }
+
+@media (min-width: 1000px) {
+  .contactList {
+    padding: 120px 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row; }
+    .contactList__section {
+      width: 30%; }
+
+  .map {
+    padding: 20px 20vw; }
+    .map__image {
+      height: 700px; } }
+.formSection {
+  padding: 20px 20px 60px; }
+  .formSection__form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px; }
+    .formSection__form__item {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+      position: relative; }
+      .formSection__form__item__label {
+        position: absolute;
+        left: 60px;
+        top: 12px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 2rem;
+        color: black;
+        pointer-events: none;
+        opacity: 0.7; }
+      .formSection__form__item__ico {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        pointer-events: none; }
+      .formSection__form__item__input {
+        padding: 20px 20px 20px 60px;
+        background: grey;
+        border: none;
+        width: 100%; }
+      .formSection__form__item__textarea {
+        padding: 20px 20px 20px 60px;
+        background: grey;
+        border: none;
+        width: 100%;
+        height: 175px;
+        resize: none; }
+      .formSection__form__item__submit {
+        width: 75%;
+        margin: 10px auto -60px; }
+      .formSection__form__item__input:focus + .formSection__form__item__label, .formSection__form__item__input:not(:placeholder-shown) + .formSection__form__item__label, .formSection__form__item__textarea:focus + .formSection__form__item__label, .formSection__form__item__textarea:not(:placeholder-shown) + .formSection__form__item__label {
+        opacity: 0; }
+
+@media (min-width: 1000px) {
+  .formSection {
+    padding: 80px 25vw 60px; }
+    .formSection__form {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .formSection__form__item {
+        width: 47%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        position: relative; }
+        .formSection__form__item__submit {
+          width: 35%;
+          margin: 20px auto -60px; }
+        .formSection__form__item.area {
+          width: 97%; } }
 footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
