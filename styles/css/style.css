@@ -1450,7 +1450,7 @@
 .sectionOffers {
   padding: 40px 20px; }
   .sectionOffers__div {
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 8px #333333;
     padding: 0 0 40px 0;
     margin-bottom: 40px; }
     .sectionOffers__div__items {
@@ -1469,7 +1469,7 @@
         font-size: 30px;
         font-weight: 700;
         line-height: 2rem;
-        color: red; }
+        color: #DE5777; }
         .sectionOffers__div__items__price--crossed {
           bottom: 40px;
           font-size: 26px;
@@ -1480,7 +1480,7 @@
           font-size: 12px;
           font-weight: 700;
           line-height: 3rem;
-          color: red; }
+          color: #DE5777; }
           .sectionOffers__div__items__price span.crossed {
             color: #BEAD8E;
             text-decoration: line-through; }
@@ -1491,7 +1491,7 @@
         font-size: 13px;
         font-weight: 700;
         line-height: 18px;
-        color: black;
+        color: #333333;
         letter-spacing: 2.8px;
         opacity: 0.7; }
       .sectionOffers__div__info__h2 {
@@ -1499,7 +1499,7 @@
         font-size: 40px;
         font-weight: 400;
         line-height: 48px;
-        color: black;
+        color: #111;
         letter-spacing: -1.44px;
         margin: 10px 0 20px; }
       .sectionOffers__div__info__p {
@@ -1535,11 +1535,11 @@
         width: 80%;
         margin: -40px auto 0;
         z-index: 20;
-        background: white;
+        background: #fff;
         position: relative; }
         .sectionOffers__div__info__h2 {
           padding-bottom: 20px;
-          border-bottom: 2px solid black; }
+          border-bottom: 2px solid #d3d3d3; }
         .sectionOffers__div__info__p {
           width: 55%; }
 
@@ -1559,7 +1559,7 @@
 .popularRooms {
   padding: 100px 20px 10px;
   position: relative;
-  background: black;
+  background: #111;
   text-align: center; }
   .popularRooms__span {
     font-family: "Roboto", sans-serif;
@@ -1573,7 +1573,7 @@
     font-size: 40px;
     font-weight: 400;
     line-height: 30px;
-    color: white;
+    color: #fff;
     margin: 28px 0 48px; }
   .popularRooms .swiper {
     width: 100%;
@@ -1586,7 +1586,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background: white;
+    background: #fff;
     margin-top: -10px;
     gap: 20px;
     padding: 80px 20px; }
@@ -1595,7 +1595,7 @@
       font-size: 24px;
       font-weight: 400;
       line-height: 24px;
-      color: black; }
+      color: #111; }
     .popularRooms .swiper-slide .popularRooms__info__description {
       opacity: 0.7; }
     .popularRooms .swiper-slide .popularRooms__info__actions {
@@ -1623,7 +1623,7 @@
     align-items: center;
     flex-direction: row;
     gap: 12px;
-    background: white;
+    background: #fff;
     padding: 1rem 5rem; }
 
 @media (min-width: 1000px) {

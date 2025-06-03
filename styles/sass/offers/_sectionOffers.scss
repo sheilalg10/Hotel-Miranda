@@ -2,7 +2,7 @@
   padding: 40px 20px;
 
   &__div {
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 8px $black3;
     padding: 0 0 40px 0;
     margin-bottom: 40px;
 
@@ -21,7 +21,7 @@
         position: absolute;
         bottom: 0;
         right: 14px;
-        @include font($roboto, 30px, 700, 2rem, red);
+        @include font($roboto, 30px, 700, 2rem, $red);
 
         &--crossed {
           bottom: 40px;
@@ -31,7 +31,7 @@
         }
 
         span {          
-          @include font($roboto, 12px, 700, 3rem, red);
+          @include font($roboto, 12px, 700, 3rem, $red);
 
           &.crossed {
             color: $gold;
@@ -45,13 +45,13 @@
       padding: 20px 40px 20px 20px;
 
       &__span {
-        @include font($roboto, 13px, 700, 18px, black);
+        @include font($roboto, 13px, 700, 18px, $black3);
         letter-spacing: 2.8px;
         opacity: 0.7;
       }
 
       &__h2 {
-        @include font($old, 40px, 400, 48px, black);
+        @include font($old, 40px, 400, 48px, $black1);
         letter-spacing: -1.44px;
         margin: 10px 0 20px;
       }
@@ -103,12 +103,12 @@
         width: 80%;
         margin: -40px auto 0;
         z-index: 20;
-        background: white;
+        background: $whiteFFF;
         position: relative;
 
         &__h2 {
           padding-bottom: 20px;
-          border-bottom: 2px solid black;
+          border-bottom: 2px solid $blackD
         }
 
         &__p {

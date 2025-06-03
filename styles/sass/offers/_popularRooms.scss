@@ -1,7 +1,7 @@
 .popularRooms {
   padding: 100px 20px 10px;
   position: relative;
-  background: black;
+  background: $black1;
   text-align: center;
 
   &__span {
@@ -10,7 +10,7 @@
   }
 
   &__title {
-    @include font($old, 40px, 400, 30px, white);
+    @include font($old, 40px, 400, 30px, $whiteFFF);
     margin: 28px 0 48px;
   }
 
@@ -27,13 +27,13 @@
 
     .popularRooms__info {
       @include flex(flex-start, center, column);
-      background: white;
+      background: $whiteFFF;
       margin-top: -10px;
       gap: 20px;
       padding: 80px 20px;
 
       &__title {
-        @include font($old, 24px, 400, 24px, black);
+        @include font($old, 24px, 400, 24px, $black1);
       }
 
       &__description {
@@ -62,7 +62,7 @@
       z-index: 22;
       @include flex(center, center, row);
       gap: 12px;
-      background: white;
+      background: $whiteFFF;
       padding: 1rem 5rem;
     }
   }
