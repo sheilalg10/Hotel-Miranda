@@ -14,13 +14,13 @@
         gap: 20px;
 
         &__span {
-            @include font($roboto, 13px, 700, 18px, black);
+            @include font($roboto, 13px, 700, 18px, $black1);
             opacity: .7;
             letter-spacing: 2.8px;
         }
 
         &__h2{
-            @include font($old, 40px, 400, 48px, black);
+            @include font($old, 40px, 400, 48px, $black1);
         }
 
         &__p{

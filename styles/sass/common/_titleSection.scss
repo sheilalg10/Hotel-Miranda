@@ -1,11 +1,11 @@
 .title {
-  background-color: black;
+  background-color: $black1;
   @include flex(center, flex-start, column);
   padding: 180px 10vw 100px;
   position: relative;
 
   &__span {
-    @include font($roboto, 13px, 700, 18px, white);
+    @include font($roboto, 13px, 700, 18px, $whiteFFF);
     letter-spacing: 2.8px;
     margin-bottom: 24px;
   }
@@ -20,7 +20,7 @@
     background: white;
     padding: 16px 24px;
     &__p{
-        @include font($roboto, 16px, 700, 18px, black);
+        @include font($roboto, 16px, 700, 18px, $black1);
 
         span {
             color: $gold;

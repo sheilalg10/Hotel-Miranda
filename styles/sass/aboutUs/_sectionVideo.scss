@@ -7,7 +7,7 @@
         margin-bottom: 40px;
     }
     &__h2{
-        @include font($old, 35px, 400, 2rem, black);
+        @include font($old, 35px, 400, 2rem, $black1);
         letter-spacing: -1.16px;
         text-align: center;
     }
@@ -32,12 +32,12 @@
             }
 
             &__h3{
-                @include font($roboto, 12px, 700, 14px, black);
+                @include font($roboto, 12px, 700, 14px, $black1);
                 text-transform: uppercase;
                 letter-spacing: 2.8px;
 
                 &--solid{
-                    color: white;
+                    color: $whiteFFF;
                 }
             }
         }
@@ -53,7 +53,7 @@
         }
     
         &__h2 {
-            @include font($old, 72px, 400, 100%, black);
+            @include font($old, 72px, 400, 100%, $black1);
         }
     
         &__div {

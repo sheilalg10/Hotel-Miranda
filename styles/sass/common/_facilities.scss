@@ -5,16 +5,16 @@
   width: 100%;
 
   &--dark {
-    background: black;
+    background: $black1;
     margin-top: 80px;
   }
 
   &__span {
-    @include font($roboto, 13px, 700, 18px, black);
+    @include font($roboto, 13px, 700, 18px, $black1);
     letter-spacing: 2.8px;
 
     &--dark {
-      color: white;
+      color: $whiteF9;
     }
   }
 
@@ -23,7 +23,7 @@
     margin-bottom: 32px;
 
     &--dark {
-      color: white;
+      color: $whiteF9;
     }
   }
 
@@ -51,13 +51,13 @@
 
       &__h3 {
         &--dark {
-          color: white;
+          color: $whiteF9;
         }
       }
 
       &__p {
         &--dark {
-          color: white;
+          color: $whiteF9;
         }
       }
 
@@ -66,18 +66,18 @@
         position: absolute;
         top: 32px;
         right: 32px;
-        @include font($roboto, 120px, 700, 130px, black);
+        @include font($roboto, 120px, 700, 130px, $blackD);
         opacity: 0.6;
         pointer-events: none;
       }
 
       &--dark {
-        background: #292929;
+        background: $black2;
         padding-bottom: 60px;
         margin-right: 20px;
 
         &::before {
-          color: black;
+          color: $black1;
           top: 4px;
           right: 5px;
           pointer-events: none;
@@ -118,7 +118,7 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: black;
+      background: $blackD;
       cursor: pointer;
       margin: 5px 0px;
 
@@ -127,7 +127,7 @@
       }
 
       &--dark{
-        background-color: white;
+        background-color: $whiteFFF;
       }
     }
   }

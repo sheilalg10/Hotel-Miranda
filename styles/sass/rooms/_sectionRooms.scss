@@ -15,7 +15,7 @@
         }
 
         &__title {
-            @include font($old, 24px, 400, 24px, black);
+            @include font($old, 24px, 400, 24px, $black1);
             margin-bottom: 16px;
         }
 
@@ -32,7 +32,7 @@
                     margin-left: 20px;
                     opacity: .5;
                     text-decoration: none;
-                    color: grey;
+                    color: $black1;
                 }
             }
         }
@@ -54,10 +54,10 @@
         @include flex(center, center, row);
         width: 39px;
         height: 39px;
-        @include font($roboto, 14px, 700, 19px, black);
+        @include font($roboto, 14px, 700, 19px, $black1);
 
         &.active {
-            color: white;
+            color: $whiteFFF;
             background: $gold;
         }
     }

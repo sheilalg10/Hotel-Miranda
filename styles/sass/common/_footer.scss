@@ -46,7 +46,7 @@ footer {
                 @include flex(flex-start, flex-start, column);
 
                 &__item {
-                    @include font($roboto, 16px, 400, 48px, black);
+                    @include font($roboto, 16px, 400, 48px, $black3);
                     opacity: .8;
                     text-transform: capitalize;
                     list-style: none;
@@ -55,7 +55,7 @@ footer {
                 &__item::before {
                     content: '+';
                     margin-right: 8px;
-                    color: black;
+                    color: $black3;
                     opacity: .8;
                 }
             }
@@ -78,12 +78,12 @@ footer {
 
             &__info {
                 &__title {
-                    @include font($old, 20px, 400, 24px, black);
+                    @include font($old, 20px, 400, 24px, $black3);
                     text-transform: capitalize;
                 }
 
                 &__description {
-                    @include font($roboto, 14px, 400, 20px, black);
+                    @include font($roboto, 14px, 400, 20px, $black3);
                     opacity: .6;
                     text-transform: capitalize;
                 }
@@ -92,7 +92,7 @@ footer {
     }
 
     .copyright {
-        background: grey;
+        background: $blackD;
         width: 87.5vw;
         @include flex(center, flex-start, column);
         gap: 12px;
@@ -100,7 +100,7 @@ footer {
         left: -20px;
         bottom: -32px;
         p {
-            @include font($roboto, 16px, 700, 30px, black);
+            @include font($roboto, 16px, 700, 30px, $black3);
         }
     }
 }

@@ -2,7 +2,7 @@
   padding: 40px 20px 0;
 
   &__span {
-    @include font($roboto, 13px, 700, 18px, black);
+    @include font($roboto, 13px, 700, 18px, $black1);
     letter-spacing: 2.8px;
   }
 
@@ -23,12 +23,12 @@
 
       &__div {
         &__h3 {
-          @include font($old, 60px, 400, 60px, black);
+          @include font($old, 60px, 400, 60px, $black1);
           letter-spacing: -1.8px;
         }
 
         &__p {
-          @include font($roboto, 16px, 400, 16px, black);
+          @include font($roboto, 16px, 400, 16px, $black1);
         }
       }
 
@@ -53,7 +53,7 @@
     z-index: 10;
 
     .swiper-pagination-bullet {
-      background-color: white;
+      background-color: $whiteF9;
       opacity: 1;
     }
 

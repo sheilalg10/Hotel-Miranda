@@ -19,7 +19,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      @include font($roboto, 200px, 700, 100%, black);
+      @include font($roboto, 200px, 700, 100%, $black1);
       opacity: 0.1;
     }
 
@@ -32,12 +32,12 @@
 
     &__info {
       &__title {
-        @include font($old, 20px, 400, 24px, black);
+        @include font($old, 20px, 400, 24px, $black3);
         text-transform: capitalize;
       }
 
       &__description {
-        @include font($roboto, 14px, 400, 20px, black);
+        @include font($roboto, 14px, 400, 20px, $black3);
         opacity: 0.6;
         text-transform: capitalize;
       }

@@ -655,7 +655,7 @@
   width: 100%;
 }
 .facilities--dark {
-  background: black;
+  background: #111;
   margin-top: 80px;
 }
 .facilities__span {
@@ -663,18 +663,18 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
-  color: black;
+  color: #111;
   letter-spacing: 2.8px;
 }
 .facilities__span--dark {
-  color: white;
+  color: #F9F9F9;
 }
 .facilities__h2 {
   margin-top: 24px;
   margin-bottom: 32px;
 }
 .facilities__h2--dark {
-  color: white;
+  color: #F9F9F9;
 }
 .facilities__div {
   display: flex;
@@ -704,10 +704,10 @@
   z-index: 10;
 }
 .facilities__div__item__h3--dark {
-  color: white;
+  color: #F9F9F9;
 }
 .facilities__div__item__p--dark {
-  color: white;
+  color: #F9F9F9;
 }
 .facilities__div__item::before {
   content: "01";
@@ -718,7 +718,7 @@
   font-size: 120px;
   font-weight: 700;
   line-height: 130px;
-  color: black;
+  color: #d3d3d3;
   opacity: 0.6;
   pointer-events: none;
 }
@@ -728,7 +728,7 @@
   margin-right: 20px;
 }
 .facilities__div__item--dark::before {
-  color: black;
+  color: #111;
   top: 4px;
   right: 5px;
   pointer-events: none;
@@ -767,7 +767,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: black;
+  background: #d3d3d3;
   cursor: pointer;
   margin: 5px 0px;
 }
@@ -775,7 +775,7 @@
   background: #BEAD8E;
 }
 .facilities__indicators__item--dark {
-  background-color: white;
+  background-color: #fff;
 }
 
 @media (min-width: 1000px) {
@@ -1024,7 +1024,7 @@
   }
 }
 .title {
-  background-color: black;
+  background-color: #111;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1037,7 +1037,7 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
-  color: white;
+  color: #fff;
   letter-spacing: 2.8px;
   margin-bottom: 24px;
 }
@@ -1061,7 +1061,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 18px;
-  color: black;
+  color: #111;
 }
 .title__div__p span {
   color: #BEAD8E;
@@ -1090,7 +1090,7 @@
   font-size: 35px;
   font-weight: 400;
   line-height: 2rem;
-  color: black;
+  color: #111;
   letter-spacing: -1.16px;
   text-align: center;
 }
@@ -1119,12 +1119,12 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
-  color: black;
+  color: #111;
   text-transform: uppercase;
   letter-spacing: 2.8px;
 }
 .sectionVideo__div__card__h3--solid {
-  color: white;
+  color: #fff;
 }
 
 @media (min-width: 1000px) {
@@ -1139,7 +1139,7 @@
     font-size: 72px;
     font-weight: 400;
     line-height: 100%;
-    color: black;
+    color: #111;
   }
   .sectionVideo__div {
     grid-template-columns: repeat(5, 1fr);
@@ -1177,7 +1177,7 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
-  color: black;
+  color: #111;
   opacity: 0.7;
   letter-spacing: 2.8px;
 }
@@ -1186,7 +1186,7 @@
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
-  color: black;
+  color: #111;
 }
 .sectionRestaurant__div__p {
   margin-bottom: -10px;
@@ -1213,7 +1213,7 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
-  color: black;
+  color: #111;
   letter-spacing: 2.8px;
 }
 .sectionCounter__h2 {
@@ -1241,7 +1241,7 @@
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
-  color: black;
+  color: #111;
   letter-spacing: -1.8px;
 }
 .sectionCounter__div__item__div__p {
@@ -1249,7 +1249,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: black;
+  color: #111;
 }
 .sectionCounter__div__item__arrow {
   margin-left: auto;
@@ -1271,7 +1271,7 @@
   z-index: 10;
 }
 .sectionCounter .swiper-pagination.counter .swiper-pagination-bullet {
-  background-color: white;
+  background-color: #F9F9F9;
   opacity: 1;
 }
 .sectionCounter .swiper-pagination.counter .swiper-pagination-bullet-active {
@@ -1316,7 +1316,7 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
-  color: black;
+  color: #111;
   margin-bottom: 16px;
 }
 .sectionrooms__item__description {
@@ -1334,7 +1334,7 @@
   margin-left: 20px;
   opacity: 0.5;
   text-decoration: none;
-  color: grey;
+  color: #111;
 }
 
 .rooms__icons.sectionrooms__item {
@@ -1362,10 +1362,10 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
-  color: black;
+  color: #111;
 }
 .pagination__numb.active {
-  color: white;
+  color: #fff;
   background: #BEAD8E;
 }
 
@@ -2013,7 +2013,7 @@
   font-size: 200px;
   font-weight: 700;
   line-height: 100%;
-  color: black;
+  color: #111;
   opacity: 0.1;
 }
 .contactList__section:nth-child(2)::before {
@@ -2027,7 +2027,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: black;
+  color: #333333;
   text-transform: capitalize;
 }
 .contactList__section__info__description {
@@ -2035,7 +2035,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  color: black;
+  color: #333333;
   opacity: 0.6;
   text-transform: capitalize;
 }
@@ -2094,7 +2094,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 2rem;
-  color: black;
+  color: #333333;
   pointer-events: none;
   opacity: 0.7;
 }
@@ -2106,13 +2106,13 @@
 }
 .formSection__form__item__input {
   padding: 20px 20px 20px 60px;
-  background: grey;
+  background: #F8F8F8;
   border: none;
   width: 100%;
 }
 .formSection__form__item__textarea {
   padding: 20px 20px 20px 60px;
-  background: grey;
+  background: #F8F8F8;
   border: none;
   width: 100%;
   height: 175px;
@@ -2213,7 +2213,7 @@ footer .services__list__column__item {
   font-size: 16px;
   font-weight: 400;
   line-height: 48px;
-  color: black;
+  color: #333333;
   opacity: 0.8;
   text-transform: capitalize;
   list-style: none;
@@ -2221,7 +2221,7 @@ footer .services__list__column__item {
 footer .services__list__column__item::before {
   content: "+";
   margin-right: 8px;
-  color: black;
+  color: #333333;
   opacity: 0.8;
 }
 footer .contact {
@@ -2248,7 +2248,7 @@ footer .contact__section__info__title {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: black;
+  color: #333333;
   text-transform: capitalize;
 }
 footer .contact__section__info__description {
@@ -2256,12 +2256,12 @@ footer .contact__section__info__description {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  color: black;
+  color: #333333;
   opacity: 0.6;
   text-transform: capitalize;
 }
 footer .copyright {
-  background: grey;
+  background: #d3d3d3;
   width: 87.5vw;
   display: flex;
   justify-content: center;
@@ -2277,7 +2277,7 @@ footer .copyright p {
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
-  color: black;
+  color: #333333;
 }
 
 @media (min-width: 1000px) {
