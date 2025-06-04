@@ -13,12 +13,12 @@
         }
 
         &__h2 {
-            @include font($roboto, 60px, 700, 1.4rem, white);
+            @include font($roboto, 60px, 700, 1.4rem, $whiteFFF);
             margin-bottom: 12px;
         }
 
         &__p {
-            @include font($roboto, 16px, 400, 1.4rem, white);
+            @include font($roboto, 16px, 400, 1.4rem, $white54);
             text-transform: capitalize;
         }
     }

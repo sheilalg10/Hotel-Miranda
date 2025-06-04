@@ -4,20 +4,19 @@
   position: relative;
 
   &__span {
-    @include font($roboto, 16px, 400, 1rem, grey);
+    @include font($roboto, 16px, 400, 1rem, $black3);
     text-transform: uppercase;
-    color: black;
   }
 
   &__h2 {
-    @include font($old, 56px, 400, 60px, black);
+    @include font($old, 56px, 400, 60px, $black1);
     text-transform: capitalize;
     margin-top: 24px;
   }
 
   &__icons {
     position: absolute;
-    background: white;
+    background: $whiteFFF;
     top: 190px;
     left: 50%;
     transform: translate(-50%);
@@ -33,14 +32,14 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 4;
-    background: white;
+    background: $whiteFFF;
     width: 90vw;
     padding: 19px 24px;
     @include flex(center, center, column);
     gap: 12px;
 
     &__h3 {
-      @include font($old, 30px, 400, 30px, black);
+      @include font($old, 30px, 400, 30px, $black1);
       text-transform: capitalize;
     }
 
@@ -81,7 +80,7 @@
   }
 
   &-button-prev {
-    background-color: white;
+    background-color: $whiteFFF;
     color: $gold;
     padding: 10px 20px;
     z-index: 10;
@@ -95,13 +94,13 @@
 
   &-button-next {
     background-color: $gold;
-    color: white;
+    color: $whiteFFF;
     padding: 10px 20px;
     z-index: 10;
 
     &::after {
       font-size: 1rem !important;
-      color: white;
+      color: $whiteFFF;
       content: "";
     }
   }

@@ -10,15 +10,15 @@
     margin-bottom: -120px;
 
     &__span {
-      @include font($roboto, 13px, 700, 18px, black);
+      @include font($roboto, 13px, 700, 18px, $blackD);
       letter-spacing: 2.8px;
     }
     &__h2 {
-      @include font($old, 56px, 400, 60px, black);
+      @include font($old, 56px, 400, 60px, $black1);
       text-transform: capitalize;
     }
     &__p{
-        @include font($roboto, 14px, 400, 24px, black);
+        @include font($roboto, 14px, 400, 24px, $black3);
     }
   }
 
@@ -27,7 +27,7 @@
     width: 75vw;
     height: 640px;
     margin: 0 auto;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 4px $blackD;
     margin-bottom: 45px;
 
     &__image {
@@ -65,11 +65,11 @@
 
     &--dark {
       .aboutus__card__div {
-        background: black;
+        background: $black1;
 
         &__h3,
         &__p {
-          color: white;
+          color: $whiteFFF;
         }
       }
     }
@@ -112,11 +112,11 @@
       z-index: 12;
 
       &__image {
-        box-shadow: 0 0 4px black;
+        box-shadow: 0 0 4px $blackD;
       }
 
       &__div {
-        box-shadow: 0 0 4px black;
+        box-shadow: 0 0 4px $blackD;
       }
 
       &--dark {

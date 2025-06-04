@@ -7,7 +7,7 @@
   overflow: hidden;
 
   &__span {
-    @include font($roboto, 13px, 700, 18px, black);
+    @include font($roboto, 13px, 700, 18px, $black3);
     letter-spacing: 2.8px;
   }
 
@@ -48,12 +48,12 @@
       width: 60%;
 
       &__title {
-        @include font($old, 24px, 400, 24px, black);
+        @include font($old, 24px, 400, 24px, $black1);
         margin-bottom: 12px;
       }
 
       &__description {
-        @include font($roboto, 14px, 400, 24px, black);
+        @include font($roboto, 14px, 400, 24px, $black1);
       }
     }
   }
@@ -78,7 +78,7 @@
 }
 
 .swiper-button-prev.menu {
-  background: white;
+  background: $whiteF9;
 }
 
 .swiper.food {
@@ -117,7 +117,7 @@
   z-index: 10;
 
   .swiper-pagination-bullet {
-    background-color: white;
+    background-color: $whiteF9;
     opacity: 1;
   }
 

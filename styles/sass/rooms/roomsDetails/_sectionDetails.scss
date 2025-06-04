@@ -5,12 +5,12 @@
     @include flex(center, flex-start, column);
 
     &__span {
-      @include font($roboto, 13px, 700, 18px, black);
+      @include font($roboto, 13px, 700, 18px, $black1);
       letter-spacing: 2.8px;
     }
 
     &__h2 {
-      @include font($old, 40px, 400, 48px, black);
+      @include font($old, 40px, 400, 48px, $black1);
       letter-spacing: -1.4px;
     }
 

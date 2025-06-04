@@ -1,6 +1,6 @@
 .info {
   @include flex(center, flex-start, column);
-  background-color: black;
+  background-color: $black1;
   &__div {
     @include flex(center, flex-start, column);
     gap: 40px;
@@ -81,7 +81,7 @@
       }
 
       &__h1 {
-        @include font($old, 120px, 400, 130px, white);
+        @include font($old, 120px, 400, 130px, $whiteFFF);
         width: 800px;
       }
 

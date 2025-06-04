@@ -3,8 +3,8 @@
   position: relative;
 
   &__h2 {
-    @include font($old, 30px, 400, 30px, black);
-    border-bottom: 1px solid black;
+    @include font($old, 30px, 400, 30px, $black1);
+    border-bottom: 1px solid $blackD;
     padding-bottom: 10px;
     margin-bottom: 36px;
   }
@@ -22,12 +22,12 @@
 
     .relatedRooms__div {
       text-align: center;
-      background: white;
+      background: $whiteFFF;
       @include flex(flex-start, center, column);
       margin-top: 60px;
 
       &__h2 {
-        @include font($old, 24px, 400, 24px, black);
+        @include font($old, 24px, 400, 24px, $black1);
         margin-bottom: 16px;
       }
 
