@@ -58,6 +58,12 @@
 
       &__list {
         display: none;
+        &__link{
+          text-decoration: none;
+          color: $black1;
+          font-family: $roboto;
+          font-weight: bolder;
+        }
       }
     }
 

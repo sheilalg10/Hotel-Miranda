@@ -54,6 +54,11 @@
       display: none; }
       .header__div__nav__list {
         display: none; }
+        .header__div__nav__list__link {
+          text-decoration: none;
+          color: #111;
+          font-family: "Roboto", sans-serif;
+          font-weight: bolder; }
     .header__div .header__div__nav.active {
       display: flex;
       flex-direction: column;
@@ -1236,11 +1241,11 @@
           right: 100px;
           width: 29px;
           height: 20px;
-          opacity: .7; }
+          opacity: 0.7; }
       .check__form__div__info__div__buttons__button {
         width: 75vw; }
   .check__p {
-    opacity: .6;
+    opacity: 0.6;
     margin: 60px -10px; }
 
 @media (min-width: 1000px) {
@@ -1257,9 +1262,7 @@
       flex-direction: column;
       gap: 20px; }
       .check__form__div__input {
-        width: 100%; }
-      .check__form__div .info__div__buttons__button {
-        width: 92%; }
+        width: 14vw; }
     .check__p {
       position: absolute;
       left: -39.5vw;
@@ -1426,7 +1429,9 @@
       color: #BEAD8E; }
       .sectionReleated .swiper-slide .relatedRooms__div__price__h3 a {
         margin-left: 20px;
-        opacity: 0.5; }
+        opacity: 0.5;
+        text-decoration: none;
+        color: #111; }
   .sectionReleated .rooms__icons {
     top: 328px;
     box-shadow: 0px 8px 16px 0px #8a8a8a0d;
@@ -1609,7 +1614,9 @@
         color: #BEAD8E; }
         .popularRooms .swiper-slide .popularRooms__info__actions__price a {
           margin-left: 20px;
-          opacity: 0.4; }
+          opacity: 0.4;
+          text-decoration: none;
+          color: #111; }
   .popularRooms .swiper-slide .popularRooms__icons {
     position: absolute;
     top: 220px;
